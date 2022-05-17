@@ -5,7 +5,7 @@ go
 
 ## install package
 ```
-make install
+go install
 ```
 ## Build and Run
 ```
