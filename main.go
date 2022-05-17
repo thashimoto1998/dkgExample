@@ -92,6 +92,7 @@ func main() {
 		publicKey = distrKey.Public()
 		node.secretShare = distrKey.PriShare()
 		fmt.Println("new distributed public key:", publicKey)
+		fmt.Println("new distributed secret key:", node.secretShare)
 	}
    
     // 8. Variant A - Encrypt a secret with the public key and decrypt it with
